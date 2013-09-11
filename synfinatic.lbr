@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -361,22 +361,22 @@ https://github.com/buzzdavidson/OasisLED</description>
 </package>
 <package name="TE-174975-2">
 <circle x="25.45" y="5.45" radius="3" width="0.127" layer="21"/>
-<pad name="P$16" x="3.09" y="2.95" drill="0.8"/>
-<pad name="P$15" x="5.63" y="2.95" drill="0.8"/>
-<pad name="P$14" x="8.17" y="2.95" drill="0.8"/>
-<pad name="P$13" x="10.71" y="2.95" drill="0.8"/>
-<pad name="P$12" x="13.25" y="2.95" drill="0.8"/>
-<pad name="P$11" x="15.79" y="2.95" drill="0.8"/>
-<pad name="P$10" x="18.33" y="2.95" drill="0.8"/>
-<pad name="P$9" x="20.87" y="2.95" drill="0.8"/>
-<pad name="P$8" x="3.09" y="8.03" drill="0.8"/>
-<pad name="P$7" x="5.63" y="8.03" drill="0.8"/>
-<pad name="P$6" x="8.17" y="8.03" drill="0.8"/>
-<pad name="P$5" x="10.71" y="8.03" drill="0.8"/>
-<pad name="P$4" x="13.25" y="8.03" drill="0.8"/>
-<pad name="P$3" x="15.79" y="8.03" drill="0.8"/>
-<pad name="P$2" x="18.33" y="8.03" drill="0.8"/>
-<pad name="P$1" x="20.87" y="8.03" drill="0.8" shape="square"/>
+<pad name="P$16" x="3.09" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$15" x="5.63" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$14" x="8.17" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$13" x="10.71" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$12" x="13.25" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$11" x="15.79" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$10" x="18.33" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$9" x="20.87" y="2.95" drill="1.016" diameter="1.778"/>
+<pad name="P$8" x="3.09" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$7" x="5.63" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$6" x="8.17" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$5" x="10.71" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$4" x="13.25" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$3" x="15.79" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$2" x="18.33" y="8.03" drill="1.016" diameter="1.778"/>
+<pad name="P$1" x="20.87" y="8.03" drill="1.016" diameter="1.778" shape="square"/>
 <circle x="-1.35" y="5.45" radius="3" width="0.127" layer="21"/>
 <hole x="-1.35" y="5.35" drill="3.5"/>
 <hole x="25.45" y="5.35" drill="3.5"/>
@@ -659,19 +659,6 @@ https://github.com/buzzdavidson/OasisLED</description>
 <pin name="P$16" x="-17.78" y="-17.78" length="middle" rot="R90"/>
 </symbol>
 <symbol name="ZENER-DIODE">
-<wire x1="0" y1="12.7" x2="0" y2="0" width="1.016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-12.7" width="1.016" layer="94"/>
-<wire x1="0" y1="-12.7" x2="20.32" y2="0" width="1.016" layer="94"/>
-<wire x1="20.32" y1="0" x2="0" y2="12.7" width="1.016" layer="94"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="0" width="1.016" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="-10.16" width="1.016" layer="94"/>
-<wire x1="20.32" y1="-10.16" x2="17.78" y2="-10.16" width="1.016" layer="94"/>
-<wire x1="17.78" y1="-10.16" x2="17.78" y2="-12.7" width="1.016" layer="94"/>
-<wire x1="20.32" y1="10.16" x2="22.86" y2="10.16" width="1.016" layer="94"/>
-<wire x1="22.86" y1="10.16" x2="22.86" y2="12.7" width="1.016" layer="94"/>
-<pin name="P$1" x="-5.08" y="0" length="middle"/>
-<pin name="P$2" x="25.4" y="0" length="middle" rot="R180"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="1.016" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -972,22 +959,6 @@ Available in 10 packs off ebay.  Has a simple serial interface&lt;/p&gt;</descri
 <connect gate="G$1" pin="P$7" pad="P$7"/>
 <connect gate="G$1" pin="P$8" pad="P$8"/>
 <connect gate="G$1" pin="P$9" pad="P$9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ZENER">
-<gates>
-<gate name="G$1" symbol="ZENER-DIODE" x="-7.62" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="SOD-123">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
