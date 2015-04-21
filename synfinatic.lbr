@@ -1855,6 +1855,88 @@ Model: 2462</description>
 <text x="-5.08" y="22.86" size="1.27" layer="21">1</text>
 <text x="16.51" y="22.86" size="1.27" layer="21">8</text>
 </package>
+<package name="NOKIA-5110-EBAY">
+<description>Nokia 5110 LCD as purchased from Ebay&lt;p&gt;
+These LCD's often have red PCB's and most notably have their top &amp; bottom pins directly across from each other unlike the INEX-PCD8544 marked boards which have their pins offset.</description>
+<wire x1="21.844" y1="25.4" x2="-21.844" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-21.844" y1="25.4" x2="-21.844" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-17.78" x2="21.844" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-20.066" y1="20.955" x2="-20.066" y2="-13.335" width="0.127" layer="21"/>
+<wire x1="-20.066" y1="-13.335" x2="20.066" y2="-13.335" width="0.127" layer="21"/>
+<wire x1="20.066" y1="-13.335" x2="20.066" y2="20.955" width="0.127" layer="21"/>
+<wire x1="20.066" y1="20.955" x2="-20.066" y2="20.955" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="11.1302" x2="-16.8452" y2="14.605" width="0.127" layer="21" curve="-90"/>
+<wire x1="-16.8452" y1="14.605" x2="16.0929" y2="14.605" width="0.127" layer="21"/>
+<wire x1="16.0929" y1="14.605" x2="19.685" y2="10.3779" width="0.127" layer="21" curve="-90"/>
+<wire x1="19.685" y1="10.3779" x2="19.685" y2="-9.1079" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-9.1079" x2="16.0929" y2="-12.065" width="0.127" layer="21" curve="-90"/>
+<wire x1="16.0929" y1="-12.065" x2="-15.669" y2="-12.065" width="0.127" layer="21"/>
+<wire x1="-15.669" y1="-12.065" x2="-19.685" y2="-8.684" width="0.127" layer="21" curve="-90"/>
+<wire x1="-19.685" y1="-8.684" x2="-19.685" y2="11.1302" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-17.78" x2="-21.844" y2="-17.78" width="0.127" layer="21"/>
+<pad name="P$1" x="-8.89" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$2" x="-6.35" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$3" x="-3.81" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$4" x="-1.27" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$5" x="1.27" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$6" x="3.81" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$7" x="6.35" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$8" x="8.89" y="-15.875" drill="1" rot="R90"/>
+<text x="-10.795" y="-16.51" size="1.27" layer="21">1</text>
+<text x="10.16" y="-16.51" size="1.27" layer="21">8</text>
+<hole x="-20.32" y="24.13" drill="2.286"/>
+<hole x="-20.32" y="-16.51" drill="2.286"/>
+<hole x="20.32" y="-16.51" drill="2.286"/>
+<hole x="20.32" y="24.13" drill="2.286"/>
+<pad name="P$9" x="-8.89" y="23.495" drill="1" rot="R90"/>
+<pad name="P$10" x="-6.35" y="23.495" drill="1" rot="R90"/>
+<pad name="P$11" x="-3.81" y="23.495" drill="1" rot="R90"/>
+<pad name="P$12" x="-1.27" y="23.495" drill="1" rot="R90"/>
+<pad name="P$13" x="1.27" y="23.495" drill="1" rot="R90"/>
+<pad name="P$14" x="3.81" y="23.495" drill="1" rot="R90"/>
+<pad name="P$15" x="6.35" y="23.495" drill="1" rot="R90"/>
+<pad name="P$16" x="8.89" y="23.495" drill="1" rot="R90"/>
+<text x="-10.795" y="22.86" size="1.27" layer="21">1</text>
+<text x="10.16" y="22.86" size="1.27" layer="21">8</text>
+</package>
+<package name="NOKIA-5110-EBAY-NOHOLES">
+<wire x1="21.844" y1="25.4" x2="-21.844" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-21.844" y1="25.4" x2="-21.844" y2="-17.78" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-17.78" x2="21.844" y2="25.4" width="0.127" layer="21"/>
+<wire x1="-20.066" y1="20.955" x2="-20.066" y2="-13.335" width="0.127" layer="21"/>
+<wire x1="-20.066" y1="-13.335" x2="20.066" y2="-13.335" width="0.127" layer="21"/>
+<wire x1="20.066" y1="-13.335" x2="20.066" y2="20.955" width="0.127" layer="21"/>
+<wire x1="20.066" y1="20.955" x2="-20.066" y2="20.955" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="11.1302" x2="-16.8452" y2="14.605" width="0.127" layer="21" curve="-90"/>
+<wire x1="-16.8452" y1="14.605" x2="16.0929" y2="14.605" width="0.127" layer="21"/>
+<wire x1="16.0929" y1="14.605" x2="19.685" y2="10.3779" width="0.127" layer="21" curve="-90"/>
+<wire x1="19.685" y1="10.3779" x2="19.685" y2="-9.1079" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-9.1079" x2="16.0929" y2="-12.065" width="0.127" layer="21" curve="-90"/>
+<wire x1="16.0929" y1="-12.065" x2="-15.669" y2="-12.065" width="0.127" layer="21"/>
+<wire x1="-15.669" y1="-12.065" x2="-19.685" y2="-8.684" width="0.127" layer="21" curve="-90"/>
+<wire x1="-19.685" y1="-8.684" x2="-19.685" y2="11.1302" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-17.78" x2="-21.844" y2="-17.78" width="0.127" layer="21"/>
+<pad name="P$1" x="-8.89" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$2" x="-6.35" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$3" x="-3.81" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$4" x="-1.27" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$5" x="1.27" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$6" x="3.81" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$7" x="6.35" y="-15.875" drill="1" rot="R90"/>
+<pad name="P$8" x="8.89" y="-15.875" drill="1" rot="R90"/>
+<text x="-10.795" y="-16.51" size="1.27" layer="21">1</text>
+<text x="10.16" y="-16.51" size="1.27" layer="21">8</text>
+<pad name="P$9" x="-8.89" y="23.495" drill="1" rot="R90"/>
+<pad name="P$10" x="-6.35" y="23.495" drill="1" rot="R90"/>
+<pad name="P$11" x="-3.81" y="23.495" drill="1" rot="R90"/>
+<pad name="P$12" x="-1.27" y="23.495" drill="1" rot="R90"/>
+<pad name="P$13" x="1.27" y="23.495" drill="1" rot="R90"/>
+<pad name="P$14" x="3.81" y="23.495" drill="1" rot="R90"/>
+<pad name="P$15" x="6.35" y="23.495" drill="1" rot="R90"/>
+<pad name="P$16" x="8.89" y="23.495" drill="1" rot="R90"/>
+<text x="-10.795" y="22.86" size="1.27" layer="21">1</text>
+<text x="10.16" y="22.86" size="1.27" layer="21">8</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INEX-PCD8544">
@@ -2482,6 +2564,27 @@ U1V10F5</text>
 <text x="5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-2.54" y="-3.81" size="1.778" layer="97">GND</text>
 </symbol>
+<symbol name="NOKIA-5110">
+<wire x1="12.7" y1="15.24" x2="-5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="7.62" y="-7.62" size="1.27" layer="94" rot="R90">INEX PCD8544</text>
+<text x="-2.54" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VCC" x="-10.16" y="12.7" length="middle" direction="pwr"/>
+<pin name="GND" x="-10.16" y="10.16" length="middle" direction="pwr"/>
+<pin name="SCE" x="-10.16" y="5.08" length="middle" direction="in"/>
+<pin name="RST" x="-10.16" y="2.54" length="middle" direction="in"/>
+<pin name="D/C" x="-10.16" y="0" length="middle" direction="in"/>
+<pin name="SDIN" x="-10.16" y="-2.54" length="middle" direction="in"/>
+<pin name="SCLK" x="-10.16" y="-5.08" length="middle" direction="in"/>
+<pin name="LED+" x="-10.16" y="-12.7" length="middle" direction="pwr"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="INEX-PCD8544" prefix="LCD">
@@ -2562,6 +2665,66 @@ Note that this PCB has two sets of contacts, top has pins, the bottom has throug
 <connect gate="G$1" pin="SCLK" pad="P$7"/>
 <connect gate="G$1" pin="SDIN" pad="P$6"/>
 <connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EBAY-BOTTOM-CONN" package="NOKIA-5110-EBAY">
+<connects>
+<connect gate="G$1" pin="D/C" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="LED+" pad="P$7"/>
+<connect gate="G$1" pin="RST" pad="P$1"/>
+<connect gate="G$1" pin="SCE" pad="P$2"/>
+<connect gate="G$1" pin="SCLK" pad="P$5"/>
+<connect gate="G$1" pin="SDIN" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="EBAY-TOP-CONN" package="NOKIA-5110-EBAY">
+<connects>
+<connect gate="G$1" pin="D/C" pad="P$11"/>
+<connect gate="G$1" pin="GND" pad="P$16"/>
+<connect gate="G$1" pin="LED+" pad="P$15"/>
+<connect gate="G$1" pin="RST" pad="P$9"/>
+<connect gate="G$1" pin="SCE" pad="P$10"/>
+<connect gate="G$1" pin="SCLK" pad="P$13"/>
+<connect gate="G$1" pin="SDIN" pad="P$12"/>
+<connect gate="G$1" pin="VCC" pad="P$14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOKIA-5110-EBAY-NOHOLES-BOTTOM" package="NOKIA-5110-EBAY-NOHOLES">
+<connects>
+<connect gate="G$1" pin="D/C" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$8"/>
+<connect gate="G$1" pin="LED+" pad="P$7"/>
+<connect gate="G$1" pin="RST" pad="P$1"/>
+<connect gate="G$1" pin="SCE" pad="P$2"/>
+<connect gate="G$1" pin="SCLK" pad="P$5"/>
+<connect gate="G$1" pin="SDIN" pad="P$4"/>
+<connect gate="G$1" pin="VCC" pad="P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NOKIA-5110-EBAY-NOHOLES-TOP" package="NOKIA-5110-EBAY-NOHOLES">
+<connects>
+<connect gate="G$1" pin="D/C" pad="P$11"/>
+<connect gate="G$1" pin="GND" pad="P$16"/>
+<connect gate="G$1" pin="LED+" pad="P$15"/>
+<connect gate="G$1" pin="RST" pad="P$9"/>
+<connect gate="G$1" pin="SCE" pad="P$10"/>
+<connect gate="G$1" pin="SCLK" pad="P$13"/>
+<connect gate="G$1" pin="SDIN" pad="P$12"/>
+<connect gate="G$1" pin="VCC" pad="P$14"/>
 </connects>
 <technologies>
 <technology name=""/>
